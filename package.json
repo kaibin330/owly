@@ -15,7 +15,8 @@
     "db:seed": "npx tsx prisma/seed.ts",
     "db:migrate": "npx prisma migrate dev",
     "db:push": "npx prisma db push",
-    "db:studio": "npx prisma studio"
+    "db:studio": "npx prisma studio",
+    "chatbotx:dry-run": "tsx scripts/chatbotx-escalation-dry-run.ts"
   },
   "prisma": {
     "seed": "npx tsx prisma/seed.ts"
